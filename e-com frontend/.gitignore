@@ -1,0 +1,5 @@
+# Ignore all node_modules folders in monorepo
+**/node_modules/
+
+# Ignore all .next build folders in monorepo
+**/.next/

@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-app",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "turbo run dev --filter=web",
+    "dev:admin": "turbo run dev --filter=admin",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "turbo": "^1.12.0"
+  },
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  }
+}
